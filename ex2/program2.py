@@ -3,9 +3,6 @@ import os
 import shutil
 from datetime import datetime
 import time
-# todo: folder path, sync interval, logs destination folder
-# read arguments 
-# open files 
 def get_time():
     now = datetime.now()
     current_time = now.strftime("%d/%m/%Y, %H:%M:%S")
